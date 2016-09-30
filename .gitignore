@@ -11,6 +11,7 @@ workspace.xml
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
+.idea/
 .idea/workspace.xml
 .idea/tasks.xml
 .idea/dictionaries
@@ -39,6 +40,7 @@ workspace.xml
 
 # IntelliJ
 /out/
+/lib/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
@@ -55,7 +57,7 @@ fabric.properties
 ### Intellij Patch ###
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
-# *.iml
+*.iml
 # modules.xml
 # .idea/misc.xml
 # *.ipr
@@ -100,6 +102,7 @@ local.properties
 .buildpath
 
 # sbteclipse plugin
+/target
 .target
 
 # Tern plugin
